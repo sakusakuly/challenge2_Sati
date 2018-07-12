@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/* リセットの設定 */
+
+/* bodyの設定 */
+body {
+  margin: 50px;
+  color: #414242; /* 全体の文字色固定 */
+  font-size: 14px; /* 全体の文字サイズ固定 */
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif; /* フォントの種類固定 */
+}
+
+/* リンクテキストの設定 */
+a {
+  color: #020d99;
+}
+
+a:visited {
+    color: #5e5c5c; /* 訪問済みリンクの色指定 */
+}
+
+a:hover {
+  color: #020d99;
+  fo-weight: 500;
+  text-decoration: none;
+}
+
+/* h1〜h6の設定 */
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0; /* h1〜h6のデフォルト値リセット */
+}
+
+/* p要素の設定 */
+p {
+  margin-top: 0;
+  line-height: 1.0; /* 行間に適度な間を開ける */
+}
+
+/* 画像要素の設定 */
+img {
+  vertical-align: bottom; /* 余白（画像下）をリセット */
+}
+
+
+
+
+/* ここから要件！ */
+
+
+/* 全体の背景の設定 */
+.top-words  {
+  margin: 50px 50px 50px 50px;
+  border: 10px solid olive;
+  padding: 20px;
+  color: gray;
+}
+
+/* カーソルの色設定 */
+a { /* カーソル前 */
+  color: Green;
+}
+a:hover { /* ホバー時 */
+  color: Yellow;
+}
+
+/* 全体のフォント設定 */
+.main-font {
+  font-family: "Klee";
+  font-size: 15px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* 各ヘディングのフォント・ロケーション設定 */
+h1 {
+  font-family: 'Tangerine', serif;
+  font-size: 55px;
+  text-align: center;
+  /* ★marginはdiv.でやる！h1とかは最低限の記述でいい */
+  /* margin: 10px 10px 10px 55px; */
+  /* メモ！（将来使えるように） */
+  line-height: 1.4;
+  letter-spacing:
+}
+.Introduction {
+  margin: 10px;
+}
+
+main h2 {
+  font-family: 'Arial Black', serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0px 10px 10px;
+}
+
+main h3 {
+  font-family: 'Hiragino Kaku Gothic StdN', serif;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+
+/* プロフィール写真の背景設定 */
+.profile-picture {
+  border: 3px solid gray;
+  padding: 3px;
+  width: 700px;
+  margin: auto;
+
+}
+
+/* 好き嫌いリスト */
+.like-lists {
+  text-align: center;
+}
+
+.centered-table {
+  justify-content: center;
+  margin: auto;
+}
+
+/* リンクとSNS */
+.link {
+  text-align: center;
+}
+
+.SNS {
+  text-align: center;
+}
